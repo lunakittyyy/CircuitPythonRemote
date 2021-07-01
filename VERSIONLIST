@@ -1,0 +1,8 @@
+ v1: Initial version. Only supports turning volume up, down, and muting.
+ v2: Bugged. Introduced almost all of the main media keys, but I forgot the play/pause elif.
+ v3: I fixed the play/pause issue here.
+ v4: Version tuple introduced, now compares the current version of adafruit_hid and ignores brightness buttons if it is older than 5.0.1
+ v4.1: Make out of date message less vague
+ v4.2: Brightness crash handler was messed with by another person for some reason, avoid this version
+ v4.3: Remove some stuff at the top, reverse crash handler to the one seen in v4.1
+ v4.4: Typo fixes, remove unneeded imports because it was running out of RAM on low memory boards like the CPX if using adafruit_hid 5.0.1
