@@ -6,3 +6,4 @@
  v4.2: Brightness crash handler was messed with by another person for some reason, avoid this version
  v4.3: Remove some stuff at the top, reverse crash handler to the one seen in v4.1
  v4.4: Typo fixes, remove unneeded imports because it was running out of RAM on low memory boards like the CPX if using adafruit_hid 5.0.1
+ v4.5: Recomment the code as I thought it might have been a storage issue in v4.4, even though it is a RAM issue. No changes or tweaks, just easier to read.
